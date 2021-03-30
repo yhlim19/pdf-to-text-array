@@ -6,8 +6,7 @@ extract(filePath, { splitPages: false }, function (err, data) {
     console.dir(err)
     return
   }
-  console.dir(data)
-  })
+ // console.dir(data)
   
 //extract string from Json Formatted array
   finalString = '';

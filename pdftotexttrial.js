@@ -1,5 +1,5 @@
 var path = require('path')
-var filePath = path.join(__dirname, './sample.pdf')
+var filePath = path.join(__dirname, './${paperName}.pdf')
 var extract = require('pdf-text-extract')
 extract(filePath, { splitPages: false }, function (err, data) {
   if (err) {
